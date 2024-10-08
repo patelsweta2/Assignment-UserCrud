@@ -88,7 +88,7 @@ const updateUser = async (req, res) => {
         message: errorMessages,
       });
     }
-    const { emailError } = userValidation.validate(req.body);
+    const { emailError } = emailValidation.validate(req.body);
     if (emailError) {
       const errorMessages = emailError.details.map((err) => err.message);
       return res.status(400).send({

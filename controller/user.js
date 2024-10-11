@@ -241,3 +241,13 @@ module.exports = {
   updatePassword,
   logOutUser,
 };
+
+// protocols that client should be follow for client and server communication
+// different methods of jwt that can send token from server to client
+// lookup, in mongodb
+// cors
+// imap in backend
+// difference between put and patch
+// If I want to install dev-dependencies then how to do this
+// what is the use of dotenv
+// what is mean by dotenv.config()
